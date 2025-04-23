@@ -11,12 +11,17 @@ p {
 button {
     background-color: hsl(0, 0%, 20%);
     color: hsl(0, 0%, 100%);
-    padding: 10px 100px;
+    padding: 10px 90px;
+    margin: 5px auto;
+    border: none;
+    border-radius: 5px;
 }
 
 .profile-preview {
     background-color: hsl(0, 0%, 12%);
     width: 300px;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 .thumbnail {
@@ -27,6 +32,7 @@ button {
 .profile-pic {
     width: 70px;
     height: 70px;
+    border-radius: 35px;
 }
 
 .info {
@@ -34,14 +40,18 @@ button {
 }
 
 .authur {
-    font-size: larger;
+    font-size: 25px;
+    margin: 10px 0px 5px 0px;
 }
 
 .country {
     color: hsl(75, 94%, 57%);
+    margin: 0px;
 }
 
-.job {}
+.job {
+    margin: 15px;
+}
 
 .links {
     text-align: center;
