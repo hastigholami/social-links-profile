@@ -5,6 +5,7 @@ body {
 
 p {
     color: hsl(0, 0%, 100%);
+    font-size: 14px;
 }
 
 button {
@@ -22,9 +23,13 @@ button {
 
 .info {}
 
-.authur {}
+.authur {
+    font-size: larger;
+}
 
-.country {}
+.country {
+    color: hsl(75, 94%, 57%);
+}
 
 .job {}
 
