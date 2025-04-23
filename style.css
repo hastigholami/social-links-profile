@@ -1,6 +1,10 @@
 body {
     background: hsl(0, 0%, 8%);
     font-family: Arial;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 p {
@@ -15,6 +19,7 @@ button {
     margin: 5px auto;
     border: none;
     border-radius: 5px;
+    width: 300px;
 }
 
 .profile-preview {
