@@ -1,5 +1,6 @@
 body {
     background: hsl(0, 0%, 8%);
+    font-family: Arial;
 }
 
 p {
@@ -8,8 +9,23 @@ p {
 
 button {
     background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
 }
 
 .profile-preview {
     background-color: hsl(0, 0%, 12%);
 }
+
+.thumbnail {}
+
+.profile-pic {}
+
+.info {}
+
+.authur {}
+
+.country {}
+
+.job {}
+
+.links {}
