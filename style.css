@@ -15,13 +15,18 @@ button {
 
 .profile-preview {
     background-color: hsl(0, 0%, 12%);
+    width: 300px;
 }
 
 .thumbnail {}
 
-.profile-pic {}
+.profile-pic {
+    width: 70px;
+    height: 70px;
+}
 
-.info {}
+.info {
+}
 
 .authur {
     font-size: larger;
