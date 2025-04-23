@@ -11,6 +11,7 @@ p {
 button {
     background-color: hsl(0, 0%, 20%);
     color: hsl(0, 0%, 100%);
+    padding: 10px 100px;
 }
 
 .profile-preview {
@@ -18,7 +19,10 @@ button {
     width: 300px;
 }
 
-.thumbnail {}
+.thumbnail {
+    margin: 0px 115px;
+
+}
 
 .profile-pic {
     width: 70px;
@@ -26,6 +30,7 @@ button {
 }
 
 .info {
+    justify-items: center;
 }
 
 .authur {
@@ -38,4 +43,6 @@ button {
 
 .job {}
 
-.links {}
+.links {
+    text-align: center;
+}
